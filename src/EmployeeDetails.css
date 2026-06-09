@@ -1,0 +1,159 @@
+.content {
+    flex: 1;
+    background-color: #f3f5f7;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.page-container {
+    width: 100%;
+}
+
+.page-header {
+    background: white;
+    padding: 18px 24px;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-header h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+.employee-card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.employee-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.employee-bottom {
+    display: flex;
+    gap: 120px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 12px;
+    color: #98a2b3;
+    margin-bottom: 6px;
+}
+
+.value {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1f2937;
+}
+
+.status {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 20px;
+    background-color: #fef3c7;
+    color: #b45309;
+    font-size: 12px;
+    font-weight: 500;
+    width: fit-content;
+}
+
+.address {
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #e5e7eb;
+    margin: 22px 0;
+}
+
+.edit-button {
+    /* Make the icon a capluse like, end rounded */
+    width: 32px;
+    height: 32px;
+    background-color: #f3f5f7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-btn {
+    display: block;
+}
+.create-btn {
+    background-color: #EAF9FF;
+    border: none;
+    border-radius: 25px;
+
+    padding: 8px 16px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    width: fit-content;   /* important */
+    flex: none;           /* important */
+
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.create-button-round {
+    width: 24px;
+    height: 24px;
+
+    border-radius: 50%;
+
+    background-color: #00AEEF;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.create-button-round img {
+    width: 12px;
+    height: 12px;
+    object-fit: contain;
+}
+
+
+.status.active {
+    background: #c8f3d8;
+    color: #0b9b4d;
+}
+
+.status.inactive {
+    background: #ffd9d9;
+    color: #e53935;
+}
+
+.status.probation {
+    background: #fff2bf;
+    color: #c49100;
+}
